@@ -164,13 +164,12 @@ nav a.active{color:var(--ink);background:var(--gold)}
 @keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(212,162,74,.45)}50%{box-shadow:0 0 0 16px rgba(212,162,74,0)}}
 footer{border-top:1px solid var(--rule);margin-top:90px;padding:64px 0 48px;background:linear-gradient(180deg,transparent,rgba(212,162,74,.04))}
 .colophon{margin-top:40px;padding-top:28px;border-top:1px solid var(--rule);display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;font-family:var(--mono);font-size:10px;letter-spacing:0.18em;color:var(--cream-dim);text-transform:uppercase}
-/* hide/show language spans */
-.en, .pt { display: inline; }
-body.lang-pt .en { display: none; }
-body.lang-en .pt { display: none; }
-.block-en, .block-pt { display: block; }
-body.lang-pt .block-en { display: none; }
-body.lang-en .block-pt { display: none; }
+.en,.pt{display:inline}
+body.lang-pt .en{display:none}
+body.lang-en .pt{display:none}
+.block-en,.block-pt{display:block}
+body.lang-pt .block-en{display:none}
+body.lang-en .block-pt{display:none}
 </style>
 </head>
 <body>
@@ -232,8 +231,8 @@ body.lang-en .block-pt { display: none; }
           <span class="pt">"O amor não conhece fronteiras — ele só conhece direção."</span>
         </p>
         <p class="bodytext">
-          <span class="en">I am Brett Williams — a retired engineer from Lakewood, California, and the luckiest man I know. This site is the story of my life with Elisabete Meneses Williams — Bete — a remarkable woman from Salvador, Bahia, who became my wife in July 2025. We live together now in Salvador, the city she has always called home, and the city I have come to love as my own. This is our story.</span>
-          <span class="pt">Sou Brett Williams — engenheiro aposentado de Lakewood, Califórnia, e o homem mais sortudo que conheço. Este site conta a história da minha vida com Elisabete Meneses Williams — Bete — uma mulher extraordinária de Salvador, Bahia, que se tornou minha esposa em julho de 2025. Vivemos juntos agora em Salvador, a cidade que ela sempre chamou de lar, e a cidade que aprendi a amar como minha. Esta é a nossa história.</span>
+          <span class="en">I am Brett Williams — a retired engineer from Lakewood, California, and the luckiest man I know. This site is the story of my life with Elisabete Meneses Williams — Bete — a remarkable woman from Salvador, Bahia, who became my wife in July 2025. We were married civilly on July 1, 2025 in Las Vegas, and celebrated with a religious ceremony in Salvador on September 27, 2025. I moved to Salvador permanently on August 6, 2026, and we now make our life together in this extraordinary city. This is our story.</span>
+          <span class="pt">Sou Brett Williams — engenheiro aposentado de Lakewood, Califórnia, e o homem mais sortudo que conheço. Este site conta a história da minha vida com Elisabete Meneses Williams — Bete — uma mulher extraordinária de Salvador, Bahia, que se tornou minha esposa em julho de 2025. Nos casamos civilmente em 1º de julho de 2025 em Las Vegas, e celebramos com uma cerimônia religiosa em Salvador em 27 de setembro de 2025. Mudei-me para Salvador permanentemente em 6 de agosto de 2026, e agora construímos nossa vida juntos nesta cidade extraordinária. Esta é a nossa história.</span>
         </p>
       </div>
       <div class="fimg" data-lb>
@@ -248,20 +247,20 @@ body.lang-en .block-pt { display: none; }
     <br>
     <div class="editorial reveal up">
       <p>
-        <span class="en">How we met — the story of two people who found each other across an ocean, and built something lasting from that first connection. It is a story of patience, of distance overcome, and of a love that only grew stronger with time.</span>
-        <span class="pt">Como nos conhecemos — a história de duas pessoas que se encontraram através de um oceano e construíram algo duradouro a partir desse primeiro contato. É uma história de paciência, de distância superada e de um amor que só ficou mais forte com o tempo.</span>
+        <span class="en">How we met — the story of two people who found each other and built something lasting from that first connection. A story of patience, of distance overcome, and of a love that only grew stronger with time.</span>
+        <span class="pt">Como nos conhecemos — a história de duas pessoas que se encontraram e construíram algo duradouro a partir desse primeiro contato. Uma história de paciência, de distância superada e de um amor que só ficou mais forte com o tempo.</span>
       </p>
       <p>
         <span class="en">Brazil — the country that captured my heart and never let go. Salvador, Bahia is one of the most vibrant, beautiful cities on earth — its music, its food, its people, and above all, Bete herself. This page is a love letter to the place we now call home.</span>
         <span class="pt">Brasil — o país que conquistou meu coração e nunca mais soltou. Salvador, Bahia é uma das cidades mais vibrantes e bonitas do mundo — sua música, sua comida, seu povo e, acima de tudo, a própria Bete. Esta página é uma carta de amor ao lugar que agora chamamos de lar.</span>
       </p>
       <p>
-        <span class="en">Our travels — the journeys we have taken together, each one a chapter of its own. From the coastlines of Bahia to the streets of cities we explored side by side, every trip brought us closer.</span>
-        <span class="pt">Nossas viagens — as jornadas que fizemos juntos, cada uma um capítulo à parte. Das praias da Bahia às ruas de cidades que exploramos lado a lado, cada viagem nos aproximou mais.</span>
+        <span class="en">Our travels — Costa Rica, Las Vegas, Salvador, a 21-day cruise aboard the MSC Preziosa through Europe and Africa. Every journey brought us closer, and every road eventually led back to each other.</span>
+        <span class="pt">Nossas viagens — Costa Rica, Las Vegas, Salvador, um cruzeiro de 21 dias a bordo do MSC Preziosa pela Europa e África. Cada jornada nos aproximou, e cada caminho eventualmente nos levou de volta um ao outro.</span>
       </p>
       <p>
-        <span class="en">The photographs and films — over two hundred moments from our life together in Salvador, captured exactly as they happened. Browse the gallery, open any photo full screen, and follow the timeline of the years that brought us here.</span>
-        <span class="pt">As fotografias e os filmes — mais de duzentos momentos da nossa vida juntos em Salvador, capturados exatamente como aconteceram. Navegue pela galeria, abra qualquer foto em tela cheia e siga a linha do tempo dos anos que nos trouxeram até aqui.</span>
+        <span class="en">Over six hundred photographs from our life together — browse the gallery, open any image full screen, and follow the timeline of the years that brought us here.</span>
+        <span class="pt">Mais de seiscentas fotografias da nossa vida juntos — navegue pela galeria, abra qualquer imagem em tela cheia e siga a linha do tempo dos anos que nos trouxeram até aqui.</span>
       </p>
     </div>
   </div>
@@ -280,8 +279,8 @@ body.lang-en .block-pt { display: none; }
           <span class="pt">"A pessoa certa tem o dom de fazer o mundo inteiro parecer menor."</span>
         </p>
         <p class="bodytext">
-          <span class="en">Brett first traveled to Brazil many years ago, drawn by the warmth of the culture and the richness of the country. Over the years, those visits became a part of who he is — and it was during one of those journeys that he met Bete, a woman from Salvador whose grace, intelligence, and warmth were unlike anything he had encountered before. From the moment they spoke, something shifted. He knew.</span>
-          <span class="pt">Brett viajou ao Brasil pela primeira vez há muitos anos, atraído pelo calor da cultura e pela riqueza do país. Com o tempo, essas visitas tornaram-se parte de quem ele é — e foi durante uma dessas viagens que ele conheceu Bete, uma mulher de Salvador cuja graça, inteligência e calor humano eram diferentes de tudo que ele já havia encontrado. Desde o momento em que conversaram, algo mudou. Ele soube.</span>
+          <span class="en">Brett had traveled to Brazil and come to love the country deeply — its culture, its warmth, and the particular energy of Salvador, Bahia. It was in Salvador that he met Bete — Elisabete Meneses — a woman whose intelligence, grace, and spirit were unlike anyone he had ever encountered. From the moment they spoke, something shifted. Some things you simply know.</span>
+          <span class="pt">Brett havia viajado ao Brasil e passado a amar profundamente o país — sua cultura, seu calor e a energia particular de Salvador, Bahia. Foi em Salvador que ele conheceu Bete — Elisabete Meneses — uma mulher cuja inteligência, graça e espírito eram diferentes de qualquer pessoa que ele já havia encontrado. Desde o momento em que conversaram, algo mudou. Algumas coisas você simplesmente sabe.</span>
         </p>
       </div>
       <div class="fimg" data-lb>
@@ -291,20 +290,24 @@ body.lang-en .block-pt { display: none; }
     <div class="divider"><span><span class="en">The Story Continues</span><span class="pt">A História Continua</span></span></div>
     <div class="editorial reveal up">
       <p>
-        <span class="en">What followed was a courtship measured not in weeks but in years — phone calls that stretched late into the night, visits that were never long enough, and the particular kind of longing that comes from loving someone across an ocean. Brett learned Portuguese. Bete learned patience with his accent. They both learned that distance is just a detail when the connection is real.</span>
-        <span class="pt">O que se seguiu foi um namoro medido não em semanas, mas em anos — telefonemas que se estendiam pela madrugada, visitas que nunca eram longas o suficiente e o tipo particular de saudade que vem de amar alguém do outro lado do oceano. Brett aprendeu português. Bete aprendeu a ter paciência com o sotaque dele. Os dois aprenderam que a distância é apenas um detalhe quando a conexão é real.</span>
+        <span class="en">What followed was a courtship measured not in weeks but in years — phone calls that stretched late into the night, visits that were never long enough, and the particular kind of longing that comes from loving someone across an ocean. When the distance became unbearable, they flew to Costa Rica together in 2025 — a week just for the two of them, proof that the connection was real and worth every mile.</span>
+        <span class="pt">O que se seguiu foi um namoro medido não em semanas, mas em anos — telefonemas que se estendiam pela madrugada, visitas que nunca eram longas o suficiente e o tipo particular de saudade que vem de amar alguém do outro lado do oceano. Quando a distância ficou insuportável, eles voaram juntos para a Costa Rica em 2025 — uma semana só para os dois, prova de que a conexão era real e valia cada quilômetro.</span>
       </p>
       <p>
-        <span class="en">Through everything — the logistics of two countries, the paperwork, the waiting — what never wavered was the certainty that this was right. Brett sold his car, packed his life, and boarded a one-way flight to Salvador. Not as a visitor. As someone coming home.</span>
-        <span class="pt">Por tudo — a logística de dois países, a papelada, a espera — o que nunca vacilou foi a certeza de que era isso mesmo. Brett vendeu seu carro, arrumou sua vida e embarcou em um voo sem volta para Salvador. Não como um visitante. Como alguém chegando em casa.</span>
+        <span class="en">On July 1, 2025, Brett and Bete were married in a civil ceremony in Las Vegas — and spent their wedding night at the beautiful Bellagio hotel. It was official. It was legal. And it was the beginning of everything that followed.</span>
+        <span class="pt">Em 1º de julho de 2025, Brett e Bete se casaram em uma cerimônia civil em Las Vegas — e passaram a noite de núpcias no belo hotel Bellagio. Era oficial. Era legal. E foi o começo de tudo o que se seguiu.</span>
       </p>
       <p>
-        <span class="en">They were married in July 2025 in Salvador — officially, legally, and with great joy. Brett arrived in Salvador to live permanently on August 6, 2026, settling into the Pituba neighborhood of the city Bete has always known. Together they are building a life that belongs entirely to both of them.</span>
-        <span class="pt">Eles se casaram em julho de 2025 em Salvador — de forma oficial, legal e com muita alegria. Brett chegou a Salvador para morar permanentemente em 6 de agosto de 2026, instalando-se no bairro Pituba, na cidade que Bete sempre conheceu. Juntos, eles estão construindo uma vida que pertence inteiramente aos dois.</span>
+        <span class="en">On September 27, 2025, they celebrated their love with a religious ceremony in Salvador — held at their apartment at the Costa Espana, a luxury condominium in the Barra district overlooking the sea and an active blowhole on the shore below. They rented the party room, had it catered and decorated, and gathered family and friends around them. Bete's minister performed the ceremony. It was, by every measure, perfect.</span>
+        <span class="pt">Em 27 de setembro de 2025, eles celebraram seu amor com uma cerimônia religiosa em Salvador — realizada em seu apartamento no Costa Espana, um condomínio de luxo no bairro Barra com vista para o mar e um geyser natural ativo na orla abaixo. Alugaram o salão de festas, contrataram bufê e decoração, e reuniram familiares e amigos ao seu redor. O ministro de Bete realizou a cerimônia. Foi, em todos os sentidos, perfeito.</span>
       </p>
       <p>
-        <span class="en">Bete is everything Brett could have hoped to find — strong, funny, deeply rooted in her city and her culture, and endlessly patient with a husband who is still working on his Brazilian Portuguese. He is still learning. She is still teaching. That, too, is part of the story.</span>
-        <span class="pt">Bete é tudo o que Brett poderia ter esperado encontrar — forte, engraçada, profundamente enraizada em sua cidade e em sua cultura, e infinitamente paciente com um marido que ainda está trabalhando no seu português brasileiro. Ele ainda está aprendendo. Ela ainda está ensinando. Isso também faz parte da história.</span>
+        <span class="en">A week later, on October 4, they flew to Germany. On October 5 — Brett's birthday — they boarded the MSC Preziosa in port and sailed for 21 days through Europe and down the coast of Africa, before the ship continued south to winter in southern Brazil. It was a honeymoon worthy of the marriage.</span>
+        <span class="pt">Uma semana depois, em 4 de outubro, eles voaram para a Alemanha. Em 5 de outubro — aniversário de Brett — embarcaram no MSC Preziosa e navegaram por 21 dias pela Europa e pela costa da África, antes de o navio continuar para o sul para invernar no sul do Brasil. Foi uma lua de mel à altura do casamento.</span>
+      </p>
+      <p>
+        <span class="en">Then came nine months apart. Brett returned to California to manage everything that a permanent international move requires — estate planning, legal documents, selling his car, closing out a life built over decades in Lakewood. It was difficult. It was necessary. And throughout all of it, Bete waited in Salvador with the patience and certainty that had always been her gift. On August 6, 2026, Brett landed in Salvador on a one-way ticket. He has not looked back once.</span>
+        <span class="pt">Depois vieram nove meses separados. Brett voltou à Califórnia para cuidar de tudo que uma mudança internacional permanente exige — planejamento patrimonial, documentos legais, venda do carro, encerramento de uma vida construída ao longo de décadas em Lakewood. Foi difícil. Foi necessário. E durante tudo isso, Bete esperou em Salvador com a paciência e a certeza que sempre foram seu dom. Em 6 de agosto de 2026, Brett desembarcou em Salvador com passagem só de ida. Ele não olhou para trás nem uma vez.</span>
       </p>
     </div>
   </div>
@@ -335,20 +338,20 @@ body.lang-en .block-pt { display: none; }
     <div class="divider"><span><span class="en">The Place Itself</span><span class="pt">A Cidade em Si</span></span></div>
     <div class="editorial reveal up">
       <p>
-        <span class="en">The Pelourinho — Salvador's historic center, a UNESCO World Heritage Site — is a maze of cobblestone streets, colonial architecture painted in vivid blues and yellows, and churches whose interiors are layered in gold. On any given evening, drums echo off the walls and the air smells of acarajé frying on the corner. It is a place that insists on being felt.</span>
-        <span class="pt">O Pelourinho — o centro histórico de Salvador, Patrimônio Mundial da UNESCO — é um labirinto de ruas de pedra, arquitetura colonial pintada em azuis e amarelos vivos, e igrejas cujos interiores são revestidos de ouro. Em qualquer entardecer, os tambores ecoam pelas paredes e o ar cheira a acarajé sendo frito na esquina. É um lugar que insiste em ser sentido.</span>
+        <span class="en">Brett and Bete have lived at the Costa Espana — a luxury condominium in the Barra district of Salvador, right on the sea. Their apartment overlooks the Atlantic and an active blowhole on the rocky shore below, a natural spectacle that never grows old. Barra is one of Salvador's most beloved neighborhoods — lively, beautiful, and full of the daily life that makes this city what it is.</span>
+        <span class="pt">Brett e Bete moraram no Costa Espana — um condomínio de luxo no bairro Barra de Salvador, bem à beira-mar. O apartamento tem vista para o Atlântico e para um geyser natural ativo nas rochas abaixo, um espetáculo natural que nunca cansa. A Barra é um dos bairros mais queridos de Salvador — animado, bonito e cheio do cotidiano que faz desta cidade o que ela é.</span>
       </p>
       <p>
-        <span class="en">Brett and Bete live in the Pituba neighborhood — a modern, lively district close to the beach, full of restaurants, markets, and the easy rhythms of daily Bahian life. Brett has a CPF, a local address, and is working through the process of establishing permanent residency. He is, in every sense that matters, home.</span>
-        <span class="pt">Brett e Bete moram no bairro Pituba — um distrito moderno e animado perto da praia, cheio de restaurantes, mercados e o ritmo fácil do cotidiano baiano. Brett tem CPF, endereço local e está passando pelo processo de estabelecer residência permanente. Ele está, em todo sentido que importa, em casa.</span>
+        <span class="en">The Pelourinho — Salvador's historic center and a UNESCO World Heritage Site — is a maze of cobblestone streets, colonial architecture painted in vivid blues and yellows, and churches whose interiors are layered in gold. On any given evening, drums echo off the walls and the air smells of acarajé frying on the corner. It is a place that insists on being felt.</span>
+        <span class="pt">O Pelourinho — centro histórico de Salvador e Patrimônio Mundial da UNESCO — é um labirinto de ruas de pedra, arquitetura colonial pintada em azuis e amarelos vivos e igrejas cujos interiores são revestidos de ouro. Em qualquer entardecer, os tambores ecoam pelas paredes e o ar cheira a acarajé sendo frito na esquina. É um lugar que insiste em ser sentido.</span>
       </p>
       <p>
-        <span class="en">The food deserves its own paragraph. Moqueca de camarão, vatapá, caruru, bobó de camarão — Bahian cuisine is a living tradition rooted in West African ingredients and techniques brought to Brazil centuries ago. Bete cooks all of it. Brett has learned to eat all of it. This, more than anything, may be the truest measure of love.</span>
-        <span class="pt">A comida merece um parágrafo próprio. Moqueca de camarão, vatapá, caruru, bobó de camarão — a culinária baiana é uma tradição viva enraizada em ingredientes e técnicas da África Ocidental trazidos ao Brasil há séculos. Bete cozinha tudo isso. Brett aprendeu a comer tudo isso. Isso, mais do que qualquer coisa, pode ser a medida mais verdadeira do amor.</span>
+        <span class="en">The food deserves its own paragraph. Moqueca de camarão, vatapá, caruru, bobó de camarão — Bahian cuisine is a living tradition rooted in West African ingredients and techniques brought to Brazil centuries ago. Bete cooks all of it. Brett has learned to eat all of it with great enthusiasm. This, more than anything, may be the truest measure of love.</span>
+        <span class="pt">A comida merece um parágrafo próprio. Moqueca de camarão, vatapá, caruru, bobó de camarão — a culinária baiana é uma tradição viva enraizada em ingredientes e técnicas da África Ocidental trazidos ao Brasil há séculos. Bete cozinha tudo isso. Brett aprendeu a comer tudo com grande entusiasmo. Isso, mais do que qualquer coisa, pode ser a medida mais verdadeira do amor.</span>
       </p>
       <p>
-        <span class="en">Brett is a licensed amateur radio operator (callsign WA6SXU) and has obtained the necessary permits to operate in Brazil under the CITEL international agreement. Even on the other side of the world, he stays connected — to the hobby he loves, and to the life he built before this one. Some things you carry with you. Most things, you leave behind gladly.</span>
-        <span class="pt">Brett é radioamador licenciado (indicativo WA6SXU) e obteve as licenças necessárias para operar no Brasil pelo acordo internacional CITEL. Mesmo do outro lado do mundo, ele permanece conectado — ao hobby que ama e à vida que construiu antes desta. Algumas coisas você carrega consigo. A maioria, você deixa para trás de bom grado.</span>
+        <span class="en">Brett is a licensed amateur radio operator (callsign WA6SXU) and has obtained the permits to operate in Brazil under the CITEL international agreement. Even on the other side of the world, he stays connected — to the hobby he loves, and to the life he built before this one. Some things you carry with you. Most things, you leave behind gladly.</span>
+        <span class="pt">Brett é radioamador licenciado (indicativo WA6SXU) e obteve as licenças para operar no Brasil pelo acordo internacional CITEL. Mesmo do outro lado do mundo, ele permanece conectado — ao hobby que ama e à vida que construiu antes desta. Algumas coisas você carrega consigo. A maioria, você deixa para trás de bom grado.</span>
       </p>
     </div>
   </div>
@@ -362,52 +365,58 @@ body.lang-en .block-pt { display: none; }
     <p class="note"><span class="en">↔ Scroll sideways · click a photo to open it</span><span class="pt">↔ Role para o lado · clique numa foto para abrir</span></p>
     <br>
     <div class="rail reveal up">
+
       <article class="tcard">
-        <div class="th" data-lb><img src="https://picsum.photos/seed/trip1/660/420" loading="lazy"></div>
+        <div class="th" data-lb><img src="https://picsum.photos/seed/trip-costarica/660/420" loading="lazy"></div>
         <div class="tb">
-          <div class="meta"><span class="en">Salvador · Bahia</span><span class="pt">Salvador · Bahia</span></div>
-          <h3>Salvador</h3>
-          <p><span class="en">The city that started everything — its beaches, its hills, its music, and the woman who made it home for both of us.</span><span class="pt">A cidade que começou tudo — suas praias, suas ladeiras, sua música e a mulher que a tornou lar para nós dois.</span></p>
+          <div class="meta"><span class="en">Costa Rica · 2025</span><span class="pt">Costa Rica · 2025</span></div>
+          <h3>Costa Rica</h3>
+          <p><span class="en">When the distance became too much to bear, Brett and Bete flew to Costa Rica for a week — just the two of them, surrounded by rainforest and the Pacific, proving to themselves that the love was worth every mile.</span><span class="pt">Quando a distância ficou insuportável, Brett e Bete voaram para a Costa Rica por uma semana — só os dois, cercados pela floresta tropical e pelo Pacífico, provando a si mesmos que o amor valia cada quilômetro.</span></p>
         </div>
       </article>
+
       <article class="tcard">
-        <div class="th" data-lb><img src="https://picsum.photos/seed/trip2/660/420" loading="lazy"></div>
+        <div class="th" data-lb><img src="https://picsum.photos/seed/trip-lasvegas/660/420" loading="lazy"></div>
         <div class="tb">
-          <div class="meta"><span class="en">Bahia · Coast</span><span class="pt">Litoral · Bahia</span></div>
-          <h3><span class="en">The Coastline</span><span class="pt">O Litoral</span></h3>
-          <p><span class="en">Miles of white sand and warm Atlantic water — the beaches of Bahia are among the finest in the world, and we have enjoyed every one within reach.</span><span class="pt">Quilômetros de areia branca e água quente do Atlântico — as praias da Bahia estão entre as melhores do mundo, e aproveitamos cada uma ao nosso alcance.</span></p>
+          <div class="meta"><span class="en">Las Vegas · July 1, 2025</span><span class="pt">Las Vegas · 1º de julho de 2025</span></div>
+          <h3><span class="en">The Wedding</span><span class="pt">O Casamento</span></h3>
+          <p><span class="en">Brett and Bete were married in Las Vegas on July 1, 2025, and spent their wedding night at the Bellagio — one of the most beautiful hotels in the world, on one of the best nights of their lives.</span><span class="pt">Brett e Bete se casaram em Las Vegas em 1º de julho de 2025 e passaram a noite de núpcias no Bellagio — um dos hotéis mais belos do mundo, em uma das melhores noites de suas vidas.</span></p>
         </div>
       </article>
+
       <article class="tcard">
-        <div class="th" data-lb><img src="https://picsum.photos/seed/trip3/660/420" loading="lazy"></div>
+        <div class="th" data-lb><img src="https://picsum.photos/seed/trip-barra/660/420" loading="lazy"></div>
         <div class="tb">
-          <div class="meta"><span class="en">California · USA · 2025</span><span class="pt">Califórnia · EUA · 2025</span></div>
-          <h3>California</h3>
-          <p><span class="en">Bete's first visit to Lakewood — meeting Brett's children, seeing the house, and understanding the life he was joyfully leaving behind for her.</span><span class="pt">A primeira visita de Bete a Lakewood — conhecendo os filhos de Brett, vendo a casa e entendendo a vida que ele estava alegremente deixando para trás por ela.</span></p>
+          <div class="meta"><span class="en">Barra · Salvador · September 27, 2025</span><span class="pt">Barra · Salvador · 27 de setembro de 2025</span></div>
+          <h3><span class="en">The Religious Wedding</span><span class="pt">O Casamento Religioso</span></h3>
+          <p><span class="en">At the Costa Espana in Barra, overlooking the Atlantic and a natural blowhole, Brett and Bete celebrated their love with family and friends in a ceremony performed by Bete's minister. Catered, decorated, and filled with joy.</span><span class="pt">No Costa Espana, na Barra, com vista para o Atlântico e um geyser natural, Brett e Bete celebraram seu amor com familiares e amigos em uma cerimônia realizada pelo ministro de Bete. Com bufê, decoração e muita alegria.</span></p>
         </div>
       </article>
+
       <article class="tcard">
-        <div class="th" data-lb><img src="https://picsum.photos/seed/trip4/660/420" loading="lazy"></div>
+        <div class="th" data-lb><img src="https://picsum.photos/seed/trip-msc/660/420" loading="lazy"></div>
         <div class="tb">
-          <div class="meta"><span class="en">Pelourinho · Salvador</span><span class="pt">Pelourinho · Salvador</span></div>
-          <h3>Pelourinho</h3>
-          <p><span class="en">The historic heart of Salvador — cobblestones, colonial churches, the sound of atabaque drums, and the best acarajé we have ever tasted.</span><span class="pt">O coração histórico de Salvador — pedras, igrejas coloniais, o som dos atabaques e o melhor acarajé que já experimentamos.</span></p>
+          <div class="meta"><span class="en">MSC Preziosa · October 5, 2025</span><span class="pt">MSC Preziosa · 5 de outubro de 2025</span></div>
+          <h3><span class="en">The Honeymoon Cruise</span><span class="pt">O Cruzeiro de Lua de Mel</span></h3>
+          <p><span class="en">On Brett's birthday, they boarded the MSC Preziosa after flying to Germany the day before — sailing for 21 days through Europe and down the coast of Africa on the ultimate honeymoon voyage.</span><span class="pt">No aniversário de Brett, eles embarcaram no MSC Preziosa após voarem para a Alemanha no dia anterior — navegando por 21 dias pela Europa e pela costa da África na melhor viagem de lua de mel possível.</span></p>
         </div>
       </article>
+
       <article class="tcard">
-        <div class="th" data-lb><img src="https://picsum.photos/seed/trip5/660/420" loading="lazy"></div>
+        <div class="th" data-lb><img src="https://picsum.photos/seed/trip-pituba/660/420" loading="lazy"></div>
         <div class="tb">
-          <div class="meta"><span class="en">Pituba · Home · 2026</span><span class="pt">Pituba · Casa · 2026</span></div>
-          <h3>Pituba</h3>
-          <p><span class="en">The neighborhood we now call home — our street, our market, our morning coffee. The best trip of all is the one that ends here.</span><span class="pt">O bairro que agora chamamos de lar — nossa rua, nossa feira, nosso café da manhã. A melhor viagem de todas é a que termina aqui.</span></p>
+          <div class="meta"><span class="en">Salvador · August 6, 2026</span><span class="pt">Salvador · 6 de agosto de 2026</span></div>
+          <h3><span class="en">Coming Home</span><span class="pt">Chegando em Casa</span></h3>
+          <p><span class="en">After nine months apart while Brett completed the move from California, he landed in Salvador on a one-way ticket. The last trip — and the best one. Home, at last, for good.</span><span class="pt">Após nove meses separados enquanto Brett concluía a mudança da Califórnia, ele desembarcou em Salvador com passagem só de ida. A última viagem — e a melhor de todas. Em casa, finalmente, para sempre.</span></p>
         </div>
       </article>
+
     </div>
     <div class="divider"><span><span class="en">On the Road</span><span class="pt">Na Estrada</span></span></div>
     <div class="editorial one reveal up" style="margin:0 auto">
       <p>
-        <span class="en">Travelling with Bete is an education. She knows where to eat, who to ask, which street leads somewhere worth finding, and which shortcut is actually shorter. Brett brings the map. Bete knows the way. It is a good arrangement, and it works equally well in airports, in markets, and in life.</span>
-        <span class="pt">Viajar com Bete é uma escola. Ela sabe onde comer, a quem perguntar, qual rua leva a algum lugar que vale a pena e qual atalho é realmente mais curto. Brett traz o mapa. Bete conhece o caminho. É um bom arranjo, e funciona igualmente bem em aeroportos, em feiras e na vida.</span>
+        <span class="en">Every journey Brett and Bete have taken together has been different, but each one has had the same destination: back to each other. From the rainforests of Costa Rica to the lights of Las Vegas, from the sea-facing balcony of a Salvador apartment to the deck of a cruise ship sailing past the coast of Africa on Brett's birthday — they have built a life that looks, from the outside, like an adventure. From the inside, it simply feels like home.</span>
+        <span class="pt">Cada viagem que Brett e Bete fizeram juntos foi diferente, mas todas tiveram o mesmo destino: um de volta ao outro. Das florestas tropicais da Costa Rica às luzes de Las Vegas, da varanda com vista para o mar de um apartamento em Salvador ao convés de um navio cruzando a costa da África no aniversário de Brett — eles construíram uma vida que, vista de fora, parece uma aventura. Por dentro, simplesmente parece lar.</span>
       </p>
     </div>
   </div>
@@ -446,17 +455,17 @@ body.lang-en .block-pt { display: none; }
       <div class="tl right reveal r">
         <span class="spacer"></span><span class="dot"></span>
         <div class="box">
-          <div class="yr"><span class="en">Years Ago</span><span class="pt">Anos Atrás</span></div>
-          <h4><span class="en">First Visit to Salvador</span><span class="pt">Primeira Visita a Salvador</span></h4>
-          <p><span class="en">Brett travels to Salvador, Bahia for the first time — and the city leaves a mark that never fades.</span><span class="pt">Brett viaja a Salvador, Bahia pela primeira vez — e a cidade deixa uma marca que nunca some.</span></p>
+          <div class="yr">2025</div>
+          <h4><span class="en">Costa Rica</span><span class="pt">Costa Rica</span></h4>
+          <p><span class="en">Unable to stand the distance any longer, Brett and Bete spend a week together in Costa Rica — their first major trip as a couple.</span><span class="pt">Sem aguentar mais a distância, Brett e Bete passam uma semana juntos na Costa Rica — sua primeira grande viagem como casal.</span></p>
         </div>
       </div>
 
       <div class="tl left reveal">
         <div class="box">
-          <div class="yr"><span class="en">The Meeting</span><span class="pt">O Encontro</span></div>
-          <h4><span class="en">Brett Meets Bete</span><span class="pt">Brett Conhece Bete</span></h4>
-          <p><span class="en">In Salvador, two lives intersect. Elisabete Meneses and Brett Williams meet, and everything changes.</span><span class="pt">Em Salvador, duas vidas se cruzam. Elisabete Meneses e Brett Williams se conhecem, e tudo muda.</span></p>
+          <div class="yr">July 1, 2025</div>
+          <h4><span class="en">Married in Las Vegas</span><span class="pt">Casamento em Las Vegas</span></h4>
+          <p><span class="en">Civil ceremony in Las Vegas. Wedding night at the Bellagio. Brett and Bete are officially husband and wife.</span><span class="pt">Cerimônia civil em Las Vegas. Noite de núpcias no Bellagio. Brett e Bete são oficialmente marido e mulher.</span></p>
         </div>
         <span class="dot"></span><span class="spacer"></span>
       </div>
@@ -464,17 +473,17 @@ body.lang-en .block-pt { display: none; }
       <div class="tl right reveal r">
         <span class="spacer"></span><span class="dot"></span>
         <div class="box">
-          <div class="yr"><span class="en">The Years Between</span><span class="pt">Os Anos Entre Nós</span></div>
-          <h4><span class="en">Love Across an Ocean</span><span class="pt">Amor Através do Oceano</span></h4>
-          <p><span class="en">Phone calls, visits, learning each other's language and life. Distance tested — and confirmed — everything.</span><span class="pt">Telefonemas, visitas, aprender o idioma e a vida um do outro. A distância testou — e confirmou — tudo.</span></p>
+          <div class="yr">September 27, 2025</div>
+          <h4><span class="en">Religious Wedding, Salvador</span><span class="pt">Casamento Religioso, Salvador</span></h4>
+          <p><span class="en">At the Costa Espana in Barra — their apartment overlooking the sea and a blowhole — family and friends gather for a catered, decorated celebration. Bete's minister performs the ceremony.</span><span class="pt">No Costa Espana, na Barra — seu apartamento com vista para o mar e um geyser — familiares e amigos se reúnem para uma celebração com bufê e decoração. O ministro de Bete realiza a cerimônia.</span></p>
         </div>
       </div>
 
       <div class="tl left reveal">
         <div class="box">
-          <div class="yr">Julho 2025</div>
-          <h4><span class="en">Married</span><span class="pt">Casamento</span></h4>
-          <p><span class="en">Brett and Bete are married in Salvador, Bahia in July 2025. Official, legal, and with great joy.</span><span class="pt">Brett e Bete se casam em Salvador, Bahia em julho de 2025. Oficial, legal e com muita alegria.</span></p>
+          <div class="yr">October 5, 2025</div>
+          <h4><span class="en">MSC Preziosa — Brett's Birthday</span><span class="pt">MSC Preziosa — Aniversário de Brett</span></h4>
+          <p><span class="en">Flying to Germany the day before, they board the MSC Preziosa on Brett's birthday. 21 days sailing through Europe and Africa. The perfect honeymoon.</span><span class="pt">Voando para a Alemanha no dia anterior, eles embarcam no MSC Preziosa no aniversário de Brett. 21 dias navegando pela Europa e pela África. A lua de mel perfeita.</span></p>
         </div>
         <span class="dot"></span><span class="spacer"></span>
       </div>
@@ -482,19 +491,28 @@ body.lang-en .block-pt { display: none; }
       <div class="tl right reveal r">
         <span class="spacer"></span><span class="dot"></span>
         <div class="box">
-          <div class="yr">2026</div>
+          <div class="yr"><span class="en">Late 2025 – Mid 2026</span><span class="pt">Final de 2025 – Meados de 2026</span></div>
+          <h4><span class="en">Nine Months Apart</span><span class="pt">Nove Meses Separados</span></h4>
+          <p><span class="en">Brett returns to California to manage the move — estate planning, legal documents, selling his Tesla, closing out decades of life in Lakewood. Bete waits in Salvador. The distance is hard. The purpose is clear.</span><span class="pt">Brett volta à Califórnia para organizar a mudança — planejamento patrimonial, documentos legais, venda do Tesla, encerramento de décadas de vida em Lakewood. Bete espera em Salvador. A distância é difícil. O propósito é claro.</span></p>
+        </div>
+      </div>
+
+      <div class="tl left reveal">
+        <div class="box">
+          <div class="yr">August 6, 2026</div>
           <h4><span class="en">Brett Arrives — For Good</span><span class="pt">Brett Chega — Para Ficar</span></h4>
-          <p><span class="en">On August 6, 2026, Brett lands in Salvador on a one-way ticket. He and Bete begin their permanent life together in Pituba.</span><span class="pt">Em 6 de agosto de 2026, Brett desembarca em Salvador com passagem só de ida. Ele e Bete começam sua vida permanente juntos no Pituba.</span></p>
+          <p><span class="en">A one-way ticket to Salvador. Brett lands in Brazil to begin his permanent life with Bete. The paperwork is done. The distance is over. Home.</span><span class="pt">Uma passagem só de ida para Salvador. Brett chega ao Brasil para começar sua vida permanente com Bete. A papelada acabou. A distância acabou. Em casa.</span></p>
         </div>
+        <span class="dot"></span><span class="spacer"></span>
       </div>
 
-      <div class="tl left reveal">
+      <div class="tl right reveal r">
+        <span class="spacer"></span><span class="dot"></span>
         <div class="box">
           <div class="yr"><span class="en">Today</span><span class="pt">Hoje</span></div>
-          <h4><span class="en">Home</span><span class="pt">Em Casa</span></h4>
-          <p><span class="en">Salvador, Bahia. Every morning together. The story continues.</span><span class="pt">Salvador, Bahia. Cada manhã juntos. A história continua.</span></p>
+          <h4><span class="en">Every Morning Together</span><span class="pt">Cada Manhã Juntos</span></h4>
+          <p><span class="en">Salvador, Bahia. Brett and Bete. The story continues.</span><span class="pt">Salvador, Bahia. Brett e Bete. A história continua.</span></p>
         </div>
-        <span class="dot"></span><span class="spacer"></span>
       </div>
 
     </div>
@@ -1158,7 +1176,6 @@ const VIDEOS = [
     title:"Another film", note:"Sample clip · replace me" },
 ];
 
-/* ---- build gallery ---- */
 (function(){
   const g = document.getElementById('galleryGrid');
   if (!GALLERY || GALLERY.length === 0) {
@@ -1172,14 +1189,11 @@ const VIDEOS = [
     f.className = cls;
     f.setAttribute('data-lb', '');
     f.setAttribute('data-group', 'gallery');
-    f.innerHTML =
-      '<img src="' + p.file + '" alt="' + (p.caption || '') + '" loading="lazy" decoding="async">' +
-      '<figcaption>' + (p.caption || '') + '</figcaption>';
+    f.innerHTML = '<img src="' + p.file + '" alt="' + (p.caption||'') + '" loading="lazy" decoding="async"><figcaption>' + (p.caption||'') + '</figcaption>';
     g.appendChild(f);
   });
 })();
 
-/* ---- build films ---- */
 (function(){
   const v = document.getElementById('videoGrid');
   if (!VIDEOS || VIDEOS.length === 0) {
@@ -1189,24 +1203,14 @@ const VIDEOS = [
   VIDEOS.forEach((vid, i) => {
     const card = document.createElement('div');
     card.className = 'vcard reveal' + (i % 2 ? ' r' : '');
-    let frame = '';
-    if (vid.type === 'youtube') {
-      frame = '<iframe src="https://www.youtube.com/embed/' + vid.id +
-        '" title="' + (vid.title || '') +
-        '" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
-    } else {
-      frame = '<video controls preload="none"' + (vid.poster ? ' poster="' + vid.poster + '"' : '') + '>' +
-        '<source src="' + vid.file + '" type="video/mp4">Your browser does not support video.</video>';
-    }
-    card.innerHTML =
-      '<div class="vframe">' + frame + '</div>' +
-      '<div class="vmeta">' + (vid.note ? '<div class="vnote">' + vid.note + '</div>' : '') +
-      '<h3>' + (vid.title || '') + '</h3></div>';
+    let frame = vid.type === 'youtube'
+      ? '<iframe src="https://www.youtube.com/embed/' + vid.id + '" title="' + (vid.title||'') + '" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+      : '<video controls preload="none"' + (vid.poster ? ' poster="' + vid.poster + '"' : '') + '><source src="' + vid.file + '" type="video/mp4">Your browser does not support video.</video>';
+    card.innerHTML = '<div class="vframe">' + frame + '</div><div class="vmeta">' + (vid.note ? '<div class="vnote">' + vid.note + '</div>' : '') + '<h3>' + (vid.title||'') + '</h3></div>';
     v.appendChild(card);
   });
 })();
 
-/* ---- page navigation ---- */
 const pages = document.querySelectorAll('.page');
 function show(id) {
   pages.forEach(p => p.classList.toggle('live', p.id === id));
@@ -1214,118 +1218,44 @@ function show(id) {
   window.scrollTo({ top: 0, behavior: 'smooth' });
   setTimeout(runReveal, 80);
 }
-document.querySelectorAll('[data-go]').forEach(l =>
-  l.addEventListener('click', e => { e.preventDefault(); show(l.dataset.go); })
-);
+document.querySelectorAll('[data-go]').forEach(l => l.addEventListener('click', e => { e.preventDefault(); show(l.dataset.go); }));
 
-/* ---- scroll reveal ---- */
 const io = new IntersectionObserver(entries => {
-  entries.forEach(en => {
-    if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); }
-  });
+  entries.forEach(en => { if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); } });
 }, { threshold: 0.10 });
-function runReveal() {
-  document.querySelectorAll('.live .reveal:not(.in)').forEach(el => io.observe(el));
-}
+function runReveal() { document.querySelectorAll('.live .reveal:not(.in)').forEach(el => io.observe(el)); }
 runReveal();
 
-/* ---- lightbox ---- */
-const lb      = document.getElementById('lb');
-const lbImg   = document.getElementById('lbImg');
-const lbCap   = document.getElementById('lbCap');
-const lbCount = document.getElementById('lbCount');
-const lbPrev  = document.getElementById('lbPrev');
-const lbNext  = document.getElementById('lbNext');
-let lbSet = [], cur = 0;
-function groupOf(el) {
-  const g = el.getAttribute('data-group');
-  if (!g) return [el];
-  return [...document.querySelectorAll('[data-lb][data-group="' + g + '"]')];
-}
-function lbRender() {
-  const el = lbSet[cur];
-  const img = el.querySelector('img');
-  const cap = el.querySelector('figcaption');
-  lbImg.style.animation = 'none'; void lbImg.offsetWidth; lbImg.style.animation = '';
-  lbImg.src = img.src;
-  lbCap.textContent = (cap && cap.textContent.trim()) || img.alt || '';
-  const multi = lbSet.length > 1;
-  lbCount.textContent = multi ? (cur + 1) + ' / ' + lbSet.length : '';
-  lbPrev.style.display = multi ? '' : 'none';
-  lbNext.style.display = multi ? '' : 'none';
-}
-function openLB(el) {
-  lbSet = groupOf(el); cur = lbSet.indexOf(el);
-  lbRender(); lb.classList.add('open'); document.body.style.overflow = 'hidden';
-}
-function closeLB() { lb.classList.remove('open'); document.body.style.overflow = ''; }
-function step(d) { cur = (cur + d + lbSet.length) % lbSet.length; lbRender(); }
-document.addEventListener('click', e => {
-  const t = e.target.closest('[data-lb]');
-  if (t && t.querySelector('img')) openLB(t);
-});
-document.getElementById('lbX').onclick = closeLB;
-lbNext.onclick = e => { e.stopPropagation(); step(1); };
-lbPrev.onclick = e => { e.stopPropagation(); step(-1); };
-lb.addEventListener('click', e => { if (e.target === lb) closeLB(); });
-document.addEventListener('keydown', e => {
-  if (!lb.classList.contains('open')) return;
-  if (e.key === 'Escape') closeLB();
-  if (e.key === 'ArrowRight') step(1);
-  if (e.key === 'ArrowLeft') step(-1);
-});
+const lb=document.getElementById('lb'),lbImg=document.getElementById('lbImg'),lbCap=document.getElementById('lbCap'),lbCount=document.getElementById('lbCount'),lbPrev=document.getElementById('lbPrev'),lbNext=document.getElementById('lbNext');
+let lbSet=[],cur=0;
+function groupOf(el){const g=el.getAttribute('data-group');if(!g)return[el];return[...document.querySelectorAll('[data-lb][data-group="'+g+'"]')];}
+function lbRender(){const el=lbSet[cur],img=el.querySelector('img'),cap=el.querySelector('figcaption');lbImg.style.animation='none';void lbImg.offsetWidth;lbImg.style.animation='';lbImg.src=img.src;lbCap.textContent=(cap&&cap.textContent.trim())||img.alt||'';const multi=lbSet.length>1;lbCount.textContent=multi?(cur+1)+' / '+lbSet.length:'';lbPrev.style.display=multi?'':'none';lbNext.style.display=multi?'':'none';}
+function openLB(el){lbSet=groupOf(el);cur=lbSet.indexOf(el);lbRender();lb.classList.add('open');document.body.style.overflow='hidden';}
+function closeLB(){lb.classList.remove('open');document.body.style.overflow='';}
+function step(d){cur=(cur+d+lbSet.length)%lbSet.length;lbRender();}
+document.addEventListener('click',e=>{const t=e.target.closest('[data-lb]');if(t&&t.querySelector('img'))openLB(t);});
+document.getElementById('lbX').onclick=closeLB;
+lbNext.onclick=e=>{e.stopPropagation();step(1);};
+lbPrev.onclick=e=>{e.stopPropagation();step(-1);};
+lb.addEventListener('click',e=>{if(e.target===lb)closeLB();});
+document.addEventListener('keydown',e=>{if(!lb.classList.contains('open'))return;if(e.key==='Escape')closeLB();if(e.key==='ArrowRight')step(1);if(e.key==='ArrowLeft')step(-1);});
 
-/* ---- theme toggle ---- */
-const themeBtn = document.getElementById('themeBtn');
-function applyTheme(t) {
-  if (t === 'light') { document.body.classList.add('light'); themeBtn.textContent = 'Dark'; }
-  else { document.body.classList.remove('light'); themeBtn.textContent = 'Light'; }
-}
-let savedTheme = 'dark';
-try { savedTheme = localStorage.getItem('ourstory-theme') || 'dark'; } catch(e) {}
+const themeBtn=document.getElementById('themeBtn');
+function applyTheme(t){if(t==='light'){document.body.classList.add('light');themeBtn.textContent='Dark';}else{document.body.classList.remove('light');themeBtn.textContent='Light';}}
+let savedTheme='dark';try{savedTheme=localStorage.getItem('ourstory-theme')||'dark';}catch(e){}
 applyTheme(savedTheme);
-themeBtn.addEventListener('click', () => {
-  const next = document.body.classList.contains('light') ? 'dark' : 'light';
-  applyTheme(next);
-  try { localStorage.setItem('ourstory-theme', next); } catch(e) {}
-});
+themeBtn.addEventListener('click',()=>{const next=document.body.classList.contains('light')?'dark':'light';applyTheme(next);try{localStorage.setItem('ourstory-theme',next);}catch(e){}});
 
-/* ---- language toggle ---- */
-const langBtn = document.getElementById('langBtn');
-function applyLang(lang) {
-  document.body.classList.remove('lang-en', 'lang-pt');
-  document.body.classList.add('lang-' + lang);
-  document.documentElement.lang = lang === 'pt' ? 'pt-BR' : 'en';
-  langBtn.textContent = lang === 'pt' ? 'EN' : 'PT';
-}
-/* Auto-detect: if browser is set to Portuguese, start in PT */
-let savedLang = 'en';
-try { savedLang = localStorage.getItem('ourstory-lang') || ''; } catch(e) {}
-if (!savedLang) {
-  savedLang = (navigator.language || '').toLowerCase().startsWith('pt') ? 'pt' : 'en';
-}
+const langBtn=document.getElementById('langBtn');
+function applyLang(lang){document.body.classList.remove('lang-en','lang-pt');document.body.classList.add('lang-'+lang);document.documentElement.lang=lang==='pt'?'pt-BR':'en';langBtn.textContent=lang==='pt'?'EN':'PT';}
+let savedLang='en';
+try{savedLang=localStorage.getItem('ourstory-lang')||'';}catch(e){}
+if(!savedLang){savedLang=(navigator.language||'').toLowerCase().startsWith('pt')?'pt':'en';}
 applyLang(savedLang);
-langBtn.addEventListener('click', () => {
-  const next = document.body.classList.contains('lang-pt') ? 'en' : 'pt';
-  applyLang(next);
-  try { localStorage.setItem('ourstory-lang', next); } catch(e) {}
-});
+langBtn.addEventListener('click',()=>{const next=document.body.classList.contains('lang-pt')?'en':'pt';applyLang(next);try{localStorage.setItem('ourstory-lang',next);}catch(e){}});
 
-/* ---- background music ---- */
-const audio = document.getElementById('bgMusic');
-const musicBtn = document.getElementById('musicBtn');
-musicBtn.addEventListener('click', () => {
-  if (audio.paused) {
-    audio.play()
-      .then(() => { musicBtn.classList.add('playing'); musicBtn.innerHTML = '&#10073;&#10073;'; musicBtn.title = 'Pause music'; })
-      .catch(() => { musicBtn.title = 'Add a song at audio/song.mp3 to enable music'; });
-  } else {
-    audio.pause();
-    musicBtn.classList.remove('playing');
-    musicBtn.innerHTML = '&#9835;';
-    musicBtn.title = 'Play music';
-  }
-});
+const audio=document.getElementById('bgMusic'),musicBtn=document.getElementById('musicBtn');
+musicBtn.addEventListener('click',()=>{if(audio.paused){audio.play().then(()=>{musicBtn.classList.add('playing');musicBtn.innerHTML='&#10073;&#10073;';musicBtn.title='Pause music';}).catch(()=>{musicBtn.title='Add a song at audio/song.mp3 to enable music';});}else{audio.pause();musicBtn.classList.remove('playing');musicBtn.innerHTML='&#9835;';musicBtn.title='Play music';}});
 </script>
 </body>
 </html>
